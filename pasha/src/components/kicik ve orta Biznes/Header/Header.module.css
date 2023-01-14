@@ -1,0 +1,82 @@
+.headerContent{
+    padding: 15px 40px;
+    color: rgba(128, 128, 128, 0.821);
+}
+
+.headerContent span{
+    cursor: pointer;
+}
+
+.headerContent span:hover{
+    color: black;
+}
+
+
+.upHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightUpHeader{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.rightUpHeader div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.rightUpHeader .icons{
+    font-size: 18px;
+    padding-top: 2px;
+}
+
+.leftUpHeader{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 2px;
+}
+
+.downIcon{
+    font-size: 10px;
+}
+
+.downHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.leftDownHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.leftDownCategories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.headerBtn{
+    background-color: rgb(13, 111, 13);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.headerBtn span{
+    padding-left: 7px;
+}

@@ -1,0 +1,11 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 70% !important;
+    margin: auto;
+    padding-left: 20px;
+}
+
+.active{
+    background-color: red;
+}

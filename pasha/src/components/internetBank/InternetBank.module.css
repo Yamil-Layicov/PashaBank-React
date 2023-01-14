@@ -1,0 +1,85 @@
+.content{
+    background: #7cd7ee;
+    background: linear-gradient(to left, #EAECC6, #b1ecfb);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.content{
+    width: 71%;
+    position: relative;
+}
+
+.loginContent{
+    width: 29%;
+}
+
+.img{
+    width: 550px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.img img{
+    width: 100%;
+}
+
+.contentText{
+    margin: 80px;
+}
+
+.upText{
+    font-size: 37px;
+}
+
+.upText .last{
+    font-weight: bold;
+}
+
+.downText{
+    margin-top: 20px;
+}
+
+.downText div{
+    font-size: 17px;
+    display: flex;
+    justify-content: start;
+    gap: 18px;
+    align-items: center;
+}
+
+.downText div .icon{
+    font-size: 25px;
+    padding-top: 7px;
+    color: rgb(12, 168, 12);
+}
+
+.loginContent nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+
+.loginContent nav .languages{
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.loginContent .otp{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.loginContent .otp div{
+    width: 50%;
+    text-align: center;
+}
+

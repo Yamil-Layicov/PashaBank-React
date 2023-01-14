@@ -1,0 +1,27 @@
+.asanContainer{
+    width: 29%;
+    position: absolute;
+    top: 135px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 50px 70px;
+    margin-top: 20px;
+}
+
+.asanContainer input{
+    padding: 14px;  
+}
+
+.asanContainer button{
+    padding: 13px;
+}
+
+.daxilOl{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 16px !important;
+}
