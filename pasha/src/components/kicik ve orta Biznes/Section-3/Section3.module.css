@@ -1,0 +1,35 @@
+.section3{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    padding: 20px 0 40px 185px;
+}
+
+.section3Left{
+    padding-top: 40px;
+}
+
+img{
+    width: 100%;
+}
+
+.img{
+    width: 740px;
+}
+
+.mainText{
+    font-size: 32px;
+    line-height: 43px;
+    padding-bottom: 20px;
+}
+
+.firstText{
+    font-size: 23px;
+    margin: 20px 0;
+}
+
+.secondText{
+    font-size: 16px;
+    line-height: 23px;
+    color: rgb(102, 102, 102);
+}

@@ -99,44 +99,7 @@ const Footer = () => {
     </div>
   </section>
 
-  <section className='section-2'>
-    <div className="firstTextBox">
-      <div>
-      <ul>
-          <li><span>Maliyyə İnstitutları</span></li>
-        </ul>
-      </div>
-      <div className='first'>
-        <ul>
-          <li><span>Fərdi Bankçılıq</span></li>
-          <li><span>Hesablaşma-kassa xidmətləri</span></li>
-          <li><span>Depozitlər</span></li>
-          <li><span>Haqqimizda</span></li>
-          <li><span>Korporativ Bankçılıqi</span></li>
-          <li><span>Hesablaşma-kassa xidmətləri</span></li>
-          <li><span>Depozitlər</span></li>
-          <li><span>Haqqimizda</span></li>
-          <li><span>Korporativ Bankçılıqi</span></li>
-          <li><span>Hesablaşma-kassa xidmətləri</span></li>
-        </ul>
-      </div>
-      <div className='second'>
-        <ul>
-          <li><span>Xəbərlər</span></li>
-          <li><span>Press-relizlər</span></li>
-          <li><span>Bülleten</span></li>
-        </ul>
-      </div>
-      <div className='third'>
-      <ul>
-          <li><span>Əlaqə</span></li>
-          <li><span>Ünvan</span></li>
-          <li><span>Müxbir əlaqələr</span></li>
-          <li><span>Təklif və Şikayətlər</span></li>
-      </ul>
-      </div>
-    </div>
-  </section>
+  
 
  <div className='horizontal'></div>
 

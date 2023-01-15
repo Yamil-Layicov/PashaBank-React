@@ -4,6 +4,9 @@ import { useState } from 'react'
 import {AiOutlineEye} from 'react-icons/ai'
 import {AiOutlineEyeInvisible} from 'react-icons/ai'
 import {AiOutlineExclamationCircle} from 'react-icons/ai'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEyeSlash } from '@fortawesome/free-solid-svg-icons'
+import { faEye } from '@fortawesome/free-solid-svg-icons'
 
 const Otp = () => {
 
@@ -11,9 +14,11 @@ const Otp = () => {
     const[username,setUsername] = useState('')
     const[password,setPassword] = useState('')
     const[error,setError] = useState(false)
+    const[visibility,setVisibility] = useState(false)
 
     const handleToggle = () =>{
         setType(type === 'password' ? 'text' : 'password')
+        setVisibility(visibility => !visibility)
     }
 
     const handleSubmit = (e) =>{
@@ -43,9 +48,9 @@ const Otp = () => {
             <label htmlFor="password">Şifrə</label>
             <div className={style.passwordInput}>
                 <input type={type} placeholder='Şifrəni daxil edin' onChange={e => setPassword(e.target.value)}/>
-                <span onClick={handleToggle}><AiOutlineEyeInvisible/></span>
+                <span onClick={handleToggle}><FontAwesomeIcon icon={visibility ? faEye : faEyeSlash} /></span>
             </div>
-            <button>Daxil ol</button>
+            <button>Daxil ol</button>  
         </form>
 
         <div className={style.formDown}>

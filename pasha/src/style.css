@@ -229,6 +229,7 @@ body{
     pointer-events: none;
     transition: .4s all;
     z-index: 12214;
+    width: 200px;
 }
 
 .dropDown .navbar-nav{
@@ -236,11 +237,11 @@ body{
 }
 
 .dropDown li{
-    padding: 8px 15px 8px 18px;
     text-align: start;
     display: flex;
     justify-content: space-between;
     align-items: center;    
+    font-size: 15px !important;
 }
 
 .dropDown li:first-child:hover .dropInto{
@@ -264,15 +265,12 @@ body{
 .dropInto{
     opacity: 0;
     position: absolute;
-    right: -180px;
+    right: -175px;
     top: 38px;
     background-color: #c9232e;
     transition: all .5s;
 }
 
-.introLi{
-    padding: 8px 30px !important;
-}
 
 .idareetme ul{
     position: absolute;
@@ -401,7 +399,9 @@ body{
 }
 
 
-
+.box img{
+    width: 70px;
+}
 
 
 .section-3 .boxes{
@@ -607,7 +607,14 @@ footer .elaqe{
     justify-content: space-between;
     width: 65%;
     margin: auto;
-    padding: 90px 0 180px 0;
+    padding: 90px 0 260px 0;
+}
+
+.elaqeMain li{
+    font-size: 13px;
+    line-height: 8px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
 }
 
 .elaqeMain .upLeftElaqe{
@@ -686,8 +693,8 @@ footer .elaqe{
 }
 
 .onlaynBank li{
+    font-size: 13px;
     margin-left: -10px;
-    display: inline-block;
 }
 
 .arrowBack:hover .onlaynBank{
@@ -706,3 +713,36 @@ footer .elaqe{
     background-color: red;
 }
 
+.loadingPage{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.loadingPage img{
+    width: 120px;
+}
+
+.asanImzaNew{
+    display: block;
+    width: 150px !important;
+    padding-left: 60px;
+}
+
+.otpNew{
+    width: 150px !important;
+    padding-right: 140px !important;
+}
+
+.loginBottomBorder{
+    background-color: rgba(67, 150, 61, 0.341);
+    height: 1px;
+    width: 500px !important;
+    position: absolute;
+    left: -67px;
+    margin-top: 15px;
+}

@@ -1,0 +1,96 @@
+.section2Main{
+    background-color: #FAFAFA;
+}
+
+.section2{
+    width: 75%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.section2Text{
+    padding: 50px 0;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.section2 img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.section2BoxUp{
+    background-color: #E7F4F9;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.115) 0px 7px 29px 0px;
+    transition: all .4s;
+}
+
+.section2BoxUp:hover{
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.304) 0px 7px 29px 0px;
+}
+
+.section2BoxesUp{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.section2BoxUpInto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2BoxUpIntoLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 20px;
+}
+
+.posText{
+    font-size: 22px;
+}
+
+.dahaEtrafli{
+    margin-top: 40px;
+    font-weight: bold;
+    color: rgb(12, 167, 12);
+    cursor: pointer;
+}
+
+.section2BoxUpSecond{
+    background-color: #FFEBF0;
+}
+
+.satisText{
+    color: gray;
+    line-height: 24px;
+    font-size: 17px;
+}
+
+.section2FirstBox{
+    background-color: #FDF6E7;
+    height: 250px;
+}
+
+.section2SecondBox{
+    background-color: #E0F3ED;
+    height: 250px;
+}
+
+.section2ThirdBox{
+    background-color: #F4F5F4;
+    height: 250px;
+}
+
+.dahaEtrafli2{
+    margin: 0 !important;
+}
+
+.section2BoxesUpClone{
+    padding-top: 40px;
+}

@@ -1,5 +1,5 @@
 .headerContent{
-    padding: 15px 40px;
+    padding: 1px 40px;
     color: rgba(128, 128, 128, 0.821);
 }
 
@@ -10,11 +10,25 @@
 .headerContent span:hover{
     color: black;
 }
-
+.horizon{
+    height: 1px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.374);
+}
 
 .upHeader{
+    padding: 15px 40px;
     display: flex;
     justify-content: space-between;
+}
+
+.upHeader span{
+    color:rgba(128, 128, 128, 0.821);
+}
+
+.upHeader span:hover{
+    color: black;
+    cursor: pointer;
 }
 
 .rightUpHeader{
@@ -68,15 +82,69 @@
 }
 
 .headerBtn{
-    background-color: rgb(13, 111, 13);
+    background-color: #128d6e;
     color: white;
     font-weight: bold;
     border: none;
-    padding: 12px 25px;
+    padding: 12px 22px;
     border-radius: 8px;
     cursor: pointer;
+    position: relative;
+}
+
+.headerBtnInto{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: white;
+    z-index: 23432423;
+    color: rgb(51, 51, 51);
+    width: 280px;
+    border-radius: 8px;
+    padding: 16px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.headerBtnInto div{
+    padding: 8px 10px;
+    text-align: start;
 }
 
 .headerBtn span{
     padding-left: 7px;
+}
+
+.active{
+    opacity: 0;
+    transition: all .4s;
+    visibility: hidden;
+}
+
+.activeHorizon{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    transition: all 1s;
+}
+
+.fixedHeader{
+    color: gray;
+    position: sticky;
+    top: 0;
+    z-index: 123123123;
+    background-color: white;
+    padding: 0 40px;
+}
+
+.fixedHeader span:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.hideBtn{
+    display: none;
+}
+
+.rightDownHeader{
+    position: relative;
 }

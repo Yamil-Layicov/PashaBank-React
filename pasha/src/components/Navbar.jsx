@@ -38,7 +38,7 @@ const Navbar = () => {
                   Onlayn Bank
                  <div className='onlaynBank'>
                     <ul>
-                        <li><span>Huquqi sexsler ve</span> <br /> <span>sahibkarlar</span></li>
+                        <li><span>Huquqi sexsler ve sahibkarlar</span></li>
                         <li><span>Fiziki Sexsler</span></li>
                       </ul>
                  </div>

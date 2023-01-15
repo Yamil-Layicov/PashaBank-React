@@ -1,0 +1,68 @@
+.section1{
+    background-color: #FAFAFA;
+}
+.mainSection{
+    width: 75%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.section1Boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.section1Text{
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.727);
+}
+
+.section1Box{
+    background-color: #ffff;
+    padding: 10px 20px;
+    width: 31%;
+    height: 280px;
+    box-shadow: rgba(100, 100, 111, 0.093) 0px 7px 29px 0px;
+    border-radius: 12px;
+    transition: all .4s;
+    position: relative;
+}
+
+.section1Box:hover{
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.304) 0px 7px 29px 0px;
+}
+
+.section1Icon{
+    font-size: 32px;
+    color: green;
+}
+
+li:nth-child(2) {
+    font-size: 20px;    
+}
+
+li{
+    margin: 15px;
+}
+
+.liBox{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.liIcon{
+    font-size: 22px;
+    color: green;
+}
+
+.dahaEtrafli{
+    margin-top: 40px;
+    font-weight: bold;
+    color: rgb(12, 167, 12);
+    cursor: pointer;
+}
+
